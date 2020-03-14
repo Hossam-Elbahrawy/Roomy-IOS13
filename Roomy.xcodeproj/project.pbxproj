@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF93FD67241D335D005CDA72 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93FD66241D335D005CDA72 /* signInViewController.swift */; };
+		BF93FD69241D3370005CDA72 /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93FD68241D3370005CDA72 /* tableViewController.swift */; };
+		BF93FD6B241D3382005CDA72 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93FD6A241D3382005CDA72 /* detailsViewController.swift */; };
 		BFAB556A241CFF1D003C4EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB5569241CFF1D003C4EB2 /* AppDelegate.swift */; };
 		BFAB556C241CFF1D003C4EB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB556B241CFF1D003C4EB2 /* SceneDelegate.swift */; };
 		BFAB556E241CFF1D003C4EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB556D241CFF1D003C4EB2 /* ViewController.swift */; };
@@ -15,9 +18,29 @@
 		BFAB5576241CFF1E003C4EB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAB5574241CFF1E003C4EB2 /* LaunchScreen.storyboard */; };
 		BFAB557E241D0051003C4EB2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BFAB557D241D0051003C4EB2 /* README.md */; };
 		BFAB5580241D0076003C4EB2 /* Documentation in Resources */ = {isa = PBXBuildFile; fileRef = BFAB557F241D0076003C4EB2 /* Documentation */; };
+		BFB04835241D50A1002C4777 /* CalibreMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04824241D509F002C4777 /* CalibreMedium.otf */; };
+		BFB04836241D50A1002C4777 /* CalibreLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04825241D50A0002C4777 /* CalibreLightItalic.otf */; };
+		BFB04837241D50A1002C4777 /* CalibreRegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04826241D50A0002C4777 /* CalibreRegularItalic.otf */; };
+		BFB04838241D50A1002C4777 /* CalibreBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04827241D50A0002C4777 /* CalibreBlack.otf */; };
+		BFB04839241D50A1002C4777 /* CalibreBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04828241D50A0002C4777 /* CalibreBold.otf */; };
+		BFB0483A241D50A1002C4777 /* Courgette-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04829241D50A0002C4777 /* Courgette-Regular.ttf */; };
+		BFB0483B241D50A1002C4777 /* CalibreSemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB0482A241D50A0002C4777 /* CalibreSemiboldItalic.otf */; };
+		BFB0483C241D50A1002C4777 /* TradeWinds-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFB0482B241D50A0002C4777 /* TradeWinds-Regular.ttf */; };
+		BFB0483D241D50A1002C4777 /* CalibreBlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB0482C241D50A0002C4777 /* CalibreBlackItalic.otf */; };
+		BFB0483E241D50A1002C4777 /* CalibreBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB0482D241D50A0002C4777 /* CalibreBoldItalic.otf */; };
+		BFB0483F241D50A1002C4777 /* CalibreLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB0482E241D50A0002C4777 /* CalibreLight.otf */; };
+		BFB04840241D50A1002C4777 /* CalibreRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB0482F241D50A0002C4777 /* CalibreRegular.otf */; };
+		BFB04841241D50A1002C4777 /* CalibreThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04830241D50A1002C4777 /* CalibreThinItalic.otf */; };
+		BFB04842241D50A1002C4777 /* NoeDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04831241D50A1002C4777 /* NoeDisplay-Bold.ttf */; };
+		BFB04843241D50A1002C4777 /* CalibreSemibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04832241D50A1002C4777 /* CalibreSemibold.otf */; };
+		BFB04844241D50A1002C4777 /* CalibreThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04833241D50A1002C4777 /* CalibreThin.otf */; };
+		BFB04845241D50A1002C4777 /* CalibreMediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04834241D50A1002C4777 /* CalibreMediumItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF93FD66241D335D005CDA72 /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		BF93FD68241D3370005CDA72 /* tableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
+		BF93FD6A241D3382005CDA72 /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
 		BFAB5566241CFF1D003C4EB2 /* Roomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAB5569241CFF1D003C4EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFAB556B241CFF1D003C4EB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +51,23 @@
 		BFAB5577241CFF1E003C4EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFAB557D241D0051003C4EB2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BFAB557F241D0076003C4EB2 /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documentation; sourceTree = "<group>"; };
+		BFB04824241D509F002C4777 /* CalibreMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreMedium.otf; sourceTree = "<group>"; };
+		BFB04825241D50A0002C4777 /* CalibreLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreLightItalic.otf; sourceTree = "<group>"; };
+		BFB04826241D50A0002C4777 /* CalibreRegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreRegularItalic.otf; sourceTree = "<group>"; };
+		BFB04827241D50A0002C4777 /* CalibreBlack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreBlack.otf; sourceTree = "<group>"; };
+		BFB04828241D50A0002C4777 /* CalibreBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreBold.otf; sourceTree = "<group>"; };
+		BFB04829241D50A0002C4777 /* Courgette-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Courgette-Regular.ttf"; sourceTree = "<group>"; };
+		BFB0482A241D50A0002C4777 /* CalibreSemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreSemiboldItalic.otf; sourceTree = "<group>"; };
+		BFB0482B241D50A0002C4777 /* TradeWinds-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeWinds-Regular.ttf"; sourceTree = "<group>"; };
+		BFB0482C241D50A0002C4777 /* CalibreBlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreBlackItalic.otf; sourceTree = "<group>"; };
+		BFB0482D241D50A0002C4777 /* CalibreBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreBoldItalic.otf; sourceTree = "<group>"; };
+		BFB0482E241D50A0002C4777 /* CalibreLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreLight.otf; sourceTree = "<group>"; };
+		BFB0482F241D50A0002C4777 /* CalibreRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreRegular.otf; sourceTree = "<group>"; };
+		BFB04830241D50A1002C4777 /* CalibreThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreThinItalic.otf; sourceTree = "<group>"; };
+		BFB04831241D50A1002C4777 /* NoeDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NoeDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		BFB04832241D50A1002C4777 /* CalibreSemibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreSemibold.otf; sourceTree = "<group>"; };
+		BFB04833241D50A1002C4777 /* CalibreThin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreThin.otf; sourceTree = "<group>"; };
+		BFB04834241D50A1002C4777 /* CalibreMediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreMediumItalic.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +102,7 @@
 		BFAB5568241CFF1D003C4EB2 /* Roomy */ = {
 			isa = PBXGroup;
 			children = (
+				BFB04823241D5074002C4777 /* Recources */,
 				BFAB5569241CFF1D003C4EB2 /* AppDelegate.swift */,
 				BFAB556B241CFF1D003C4EB2 /* SceneDelegate.swift */,
 				BFAB556D241CFF1D003C4EB2 /* ViewController.swift */,
@@ -69,8 +110,35 @@
 				BFAB5572241CFF1E003C4EB2 /* Assets.xcassets */,
 				BFAB5574241CFF1E003C4EB2 /* LaunchScreen.storyboard */,
 				BFAB5577241CFF1E003C4EB2 /* Info.plist */,
+				BF93FD66241D335D005CDA72 /* signInViewController.swift */,
+				BF93FD68241D3370005CDA72 /* tableViewController.swift */,
+				BF93FD6A241D3382005CDA72 /* detailsViewController.swift */,
 			);
 			path = Roomy;
+			sourceTree = "<group>";
+		};
+		BFB04823241D5074002C4777 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				BFB04827241D50A0002C4777 /* CalibreBlack.otf */,
+				BFB0482C241D50A0002C4777 /* CalibreBlackItalic.otf */,
+				BFB04828241D50A0002C4777 /* CalibreBold.otf */,
+				BFB0482D241D50A0002C4777 /* CalibreBoldItalic.otf */,
+				BFB0482E241D50A0002C4777 /* CalibreLight.otf */,
+				BFB04825241D50A0002C4777 /* CalibreLightItalic.otf */,
+				BFB04824241D509F002C4777 /* CalibreMedium.otf */,
+				BFB04834241D50A1002C4777 /* CalibreMediumItalic.otf */,
+				BFB0482F241D50A0002C4777 /* CalibreRegular.otf */,
+				BFB04826241D50A0002C4777 /* CalibreRegularItalic.otf */,
+				BFB04832241D50A1002C4777 /* CalibreSemibold.otf */,
+				BFB0482A241D50A0002C4777 /* CalibreSemiboldItalic.otf */,
+				BFB04833241D50A1002C4777 /* CalibreThin.otf */,
+				BFB04830241D50A1002C4777 /* CalibreThinItalic.otf */,
+				BFB04829241D50A0002C4777 /* Courgette-Regular.ttf */,
+				BFB04831241D50A1002C4777 /* NoeDisplay-Bold.ttf */,
+				BFB0482B241D50A0002C4777 /* TradeWinds-Regular.ttf */,
+			);
+			path = Recources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,10 +200,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFAB5576241CFF1E003C4EB2 /* LaunchScreen.storyboard in Resources */,
+				BFB0483F241D50A1002C4777 /* CalibreLight.otf in Resources */,
+				BFB04837241D50A1002C4777 /* CalibreRegularItalic.otf in Resources */,
 				BFAB5573241CFF1E003C4EB2 /* Assets.xcassets in Resources */,
+				BFB04836241D50A1002C4777 /* CalibreLightItalic.otf in Resources */,
+				BFB04841241D50A1002C4777 /* CalibreThinItalic.otf in Resources */,
+				BFB0483C241D50A1002C4777 /* TradeWinds-Regular.ttf in Resources */,
+				BFB04840241D50A1002C4777 /* CalibreRegular.otf in Resources */,
 				BFAB557E241D0051003C4EB2 /* README.md in Resources */,
+				BFB04842241D50A1002C4777 /* NoeDisplay-Bold.ttf in Resources */,
+				BFB0483A241D50A1002C4777 /* Courgette-Regular.ttf in Resources */,
+				BFB04839241D50A1002C4777 /* CalibreBold.otf in Resources */,
+				BFB04844241D50A1002C4777 /* CalibreThin.otf in Resources */,
+				BFB04845241D50A1002C4777 /* CalibreMediumItalic.otf in Resources */,
+				BFB0483B241D50A1002C4777 /* CalibreSemiboldItalic.otf in Resources */,
+				BFB04838241D50A1002C4777 /* CalibreBlack.otf in Resources */,
+				BFB0483D241D50A1002C4777 /* CalibreBlackItalic.otf in Resources */,
 				BFAB5580241D0076003C4EB2 /* Documentation in Resources */,
 				BFAB5571241CFF1D003C4EB2 /* Main.storyboard in Resources */,
+				BFB04835241D50A1002C4777 /* CalibreMedium.otf in Resources */,
+				BFB0483E241D50A1002C4777 /* CalibreBoldItalic.otf in Resources */,
+				BFB04843241D50A1002C4777 /* CalibreSemibold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +231,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF93FD67241D335D005CDA72 /* signInViewController.swift in Sources */,
+				BF93FD6B241D3382005CDA72 /* detailsViewController.swift in Sources */,
 				BFAB556E241CFF1D003C4EB2 /* ViewController.swift in Sources */,
 				BFAB556A241CFF1D003C4EB2 /* AppDelegate.swift in Sources */,
 				BFAB556C241CFF1D003C4EB2 /* SceneDelegate.swift in Sources */,
+				BF93FD69241D3370005CDA72 /* tableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +389,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SpidersCo.Roomy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,7 +406,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SpidersCo.Roomy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
