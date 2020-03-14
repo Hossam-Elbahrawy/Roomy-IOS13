@@ -1,13 +1,13 @@
-![App Brewery Banner](Documentation/bahrawy2.png)
+![Bahrawy App Logo](Documentation/bahrawy2.png)
 
 # ROOMY
 
-IOS Application for finding roomamtes
+IOS 13 Application for finding roomamtes using Swit
 
-## SCreenshots
+## Screenshots
+### Landing Screen
+[Landing Screen](Documentation/landing.png)
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at
-[www.appbrewery.co](https://www.appbrewery.co/)
 
 
 
