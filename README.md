@@ -11,14 +11,11 @@ Application for finding roomamtes online built using Swift 5 & IOS13
 - [ ] Details Screen
 
 ## Screenshots
-### launch Screen
-<img src="Documentation/launch.png" alt="Launch Screen" height="500px">
-
 ### Landing Screen
 <img src="Documentation/landing.png" alt="Landing Screen" height="500px">
 
 ### Sign in Screen
-<img src="Documentation/singin.png" alt="Sing In Screen" height="500px">
+<img src="Documentation/signin.png" alt="Sing In Screen" height="500px">
 
 ### Home Screen
 
