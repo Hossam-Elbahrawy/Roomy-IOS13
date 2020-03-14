@@ -1,28 +1,27 @@
 
-<div width="100%"> 
-<img src="Documentation/Bahrawy2.png" alt="Bahrawy Logo">
-</div>
-
 # ROOMY
 
-
 ## Introduction
-IOS 13 Application for finding roomamtes using Swit
+Application for finding roomamtes online built using Swift 5 & IOS13
 
 ## To-Do
+- [x] Launch Screen
 - [x] Landing Page UI
 - [ ] Signin Screen UI
 - [ ] Home Screen UI
 - [ ] Details Screen
 
 ## Screenshots
+### launch Screen
 
 ### Landing Screen
 <img src="Documentation/landing.png" alt="Landing Screen" height="500px">
 
-### Landing Screen
-<img src="Documentation/landing.png" alt="Landing Screen" height="500px">
+### Sign in Screen
 
+### Home Screen
+
+### Details Screen
 
 
 Support
