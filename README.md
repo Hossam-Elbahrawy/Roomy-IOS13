@@ -1,13 +1,13 @@
 
-# ROOMY APP <img src="Documentation/bahrawy.png" alt="Launch Screen" height="500px">
+# ROOMY APP <img src="Documentation/bahrawy.png" alt="Logo" height="500px">
 ## Introduction
 Application for finding roomamtes online built using Swift 5 & IOS13
 
 ## To-Do
 - [x] Launch Screen
-- [x] Landing Page UI
-- [x] Signin Screen UI
-- [ ] Home Screen UI
+- [x] Landing Screen
+- [x] Signin Screen
+- [x] Home Screen
 - [ ] Details Screen
 
 ## Screenshots
@@ -18,6 +18,7 @@ Application for finding roomamtes online built using Swift 5 & IOS13
 <img src="Documentation/signin.png" alt="Sing In Screen" height="500px">
 
 ### Home Screen
+<img src="Documentation/home.png" alt="Home Screen" height="500px">
 
 ### Details Screen
 
