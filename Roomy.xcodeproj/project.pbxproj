@@ -35,9 +35,12 @@
 		BFB04843241D50A1002C4777 /* CalibreSemibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04832241D50A1002C4777 /* CalibreSemibold.otf */; };
 		BFB04844241D50A1002C4777 /* CalibreThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04833241D50A1002C4777 /* CalibreThin.otf */; };
 		BFB04845241D50A1002C4777 /* CalibreMediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04834241D50A1002C4777 /* CalibreMediumItalic.otf */; };
+		E5AFA8328F1B5C18ED43A28F /* Pods_Roomy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFD1A4FB93F4B743D433639 /* Pods_Roomy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B6EA51C38C3338ACA4417E2 /* Pods-Roomy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roomy.debug.xcconfig"; path = "Target Support Files/Pods-Roomy/Pods-Roomy.debug.xcconfig"; sourceTree = "<group>"; };
+		1CF6883D0B63E990921555C0 /* Pods-Roomy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roomy.release.xcconfig"; path = "Target Support Files/Pods-Roomy/Pods-Roomy.release.xcconfig"; sourceTree = "<group>"; };
 		BF93FD66241D335D005CDA72 /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
 		BF93FD68241D3370005CDA72 /* tableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
 		BF93FD6A241D3382005CDA72 /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +71,7 @@
 		BFB04832241D50A1002C4777 /* CalibreSemibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreSemibold.otf; sourceTree = "<group>"; };
 		BFB04833241D50A1002C4777 /* CalibreThin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreThin.otf; sourceTree = "<group>"; };
 		BFB04834241D50A1002C4777 /* CalibreMediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreMediumItalic.otf; sourceTree = "<group>"; };
+		CEFD1A4FB93F4B743D433639 /* Pods_Roomy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roomy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +79,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5AFA8328F1B5C18ED43A28F /* Pods_Roomy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		806C8AD18A9E24D3AB4FBCFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD1A4FB93F4B743D433639 /* Pods_Roomy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BFAB555D241CFF1D003C4EB2 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +101,8 @@
 				BFAB557D241D0051003C4EB2 /* README.md */,
 				BFAB5568241CFF1D003C4EB2 /* Roomy */,
 				BFAB5567241CFF1D003C4EB2 /* Products */,
+				D85F371B369C44A332CAB687 /* Pods */,
+				806C8AD18A9E24D3AB4FBCFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +156,16 @@
 			path = Recources;
 			sourceTree = "<group>";
 		};
+		D85F371B369C44A332CAB687 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B6EA51C38C3338ACA4417E2 /* Pods-Roomy.debug.xcconfig */,
+				1CF6883D0B63E990921555C0 /* Pods-Roomy.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFAB557A241CFF1E003C4EB2 /* Build configuration list for PBXNativeTarget "Roomy" */;
 			buildPhases = (
+				CD7FB39421D6CA48416F6E7C /* [CP] Check Pods Manifest.lock */,
 				BFAB5562241CFF1D003C4EB2 /* Sources */,
 				BFAB5563241CFF1D003C4EB2 /* Frameworks */,
 				BFAB5564241CFF1D003C4EB2 /* Resources */,
+				0C035EEA153F9B3D1D539125 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -225,6 +252,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C035EEA153F9B3D1D539125 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Roomy/Pods-Roomy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Roomy/Pods-Roomy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Roomy/Pods-Roomy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD7FB39421D6CA48416F6E7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Roomy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BFAB5562241CFF1D003C4EB2 /* Sources */ = {
@@ -378,6 +447,7 @@
 		};
 		BFAB557B241CFF1E003C4EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6EA51C38C3338ACA4417E2 /* Pods-Roomy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -395,6 +465,7 @@
 		};
 		BFAB557C241CFF1E003C4EB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF6883D0B63E990921555C0 /* Pods-Roomy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
