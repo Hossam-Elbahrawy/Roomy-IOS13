@@ -11,6 +11,7 @@ Application for finding roomamtes online built using Swift 5 & IOS13
 - [x] Signin Screen
 - [x] Home Screen
 - [x] Details Screen
+- [x] Signup Screen
 - [ ] Add New Room Screen
 - [ ] Sign Up New User
 - [ ] Sign In

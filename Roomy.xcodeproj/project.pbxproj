@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF7977D3243FB56500599C4B /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7977D2243FB56500599C4B /* Room.swift */; };
+		BF7977D5243FB6E400599C4B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7977D4243FB6E400599C4B /* User.swift */; };
 		BF93FD67241D335D005CDA72 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93FD66241D335D005CDA72 /* signInViewController.swift */; };
 		BF93FD69241D3370005CDA72 /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93FD68241D3370005CDA72 /* tableViewController.swift */; };
 		BF93FD6B241D3382005CDA72 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93FD6A241D3382005CDA72 /* detailsViewController.swift */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		1B6EA51C38C3338ACA4417E2 /* Pods-Roomy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roomy.debug.xcconfig"; path = "Target Support Files/Pods-Roomy/Pods-Roomy.debug.xcconfig"; sourceTree = "<group>"; };
 		1CF6883D0B63E990921555C0 /* Pods-Roomy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roomy.release.xcconfig"; path = "Target Support Files/Pods-Roomy/Pods-Roomy.release.xcconfig"; sourceTree = "<group>"; };
+		BF7977D2243FB56500599C4B /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		BF7977D4243FB6E400599C4B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BF93FD66241D335D005CDA72 /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
 		BF93FD68241D3370005CDA72 /* tableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
 		BF93FD6A241D3382005CDA72 /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +98,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BF7977D1243FB54E00599C4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF7977D2243FB56500599C4B /* Room.swift */,
+				BF7977D4243FB6E400599C4B /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BFAB555D241CFF1D003C4EB2 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +130,7 @@
 		BFAB5568241CFF1D003C4EB2 /* Roomy */ = {
 			isa = PBXGroup;
 			children = (
+				BF7977D1243FB54E00599C4B /* Model */,
 				BFB04823241D5074002C4777 /* Recources */,
 				BFAB5569241CFF1D003C4EB2 /* AppDelegate.swift */,
 				BFAB556B241CFF1D003C4EB2 /* SceneDelegate.swift */,
@@ -162,7 +176,6 @@
 				1B6EA51C38C3338ACA4417E2 /* Pods-Roomy.debug.xcconfig */,
 				1CF6883D0B63E990921555C0 /* Pods-Roomy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -302,7 +315,9 @@
 			files = (
 				BF93FD67241D335D005CDA72 /* signInViewController.swift in Sources */,
 				BF93FD6B241D3382005CDA72 /* detailsViewController.swift in Sources */,
+				BF7977D3243FB56500599C4B /* Room.swift in Sources */,
 				BFAB556E241CFF1D003C4EB2 /* ViewController.swift in Sources */,
+				BF7977D5243FB6E400599C4B /* User.swift in Sources */,
 				BFAB556A241CFF1D003C4EB2 /* AppDelegate.swift in Sources */,
 				BFAB556C241CFF1D003C4EB2 /* SceneDelegate.swift in Sources */,
 				BF93FD69241D3370005CDA72 /* tableViewController.swift in Sources */,
