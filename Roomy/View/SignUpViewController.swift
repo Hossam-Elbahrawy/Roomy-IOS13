@@ -13,23 +13,30 @@ class SignUpViewController : UIViewController{
     @IBOutlet weak var userNameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var loadingIndecator: UIActivityIndicatorView!
+    @IBOutlet weak var signUpButtonText: UIButton!
     
     override func viewDidLoad() {
         print("Sign Up Screen")
     }
+    
     @IBAction func signUpButtonPressed(_ sender: UIButton) {
+        loadingIndecator.startAnimating()
+        signUpButtonText.isHidden = true
+        
         let userName = userNameTextField.text
         let email = emailTextField.text
         let pasword = passwordTextField.text
-        print(userName!)
-        print(email!)
-        print(pasword!)
+
        let newUser = User(name: userName ?? "", email: email ?? "", password: pasword ?? "")
         
-     let res = signUpUser(user: newUser)
-        if(res){
-            performSegue(withIdentifier: "SignUpToHome", sender: nil)
-        }
+        signUpReq(user: newUser, completion: goToHome)
+        
+    }
+    func goToHome(){
+        loadingIndecator.stopAnimating()
+        signUpButtonText.isHidden = false
+         performSegue(withIdentifier: "SignUpToHome", sender: nil)
     }
     
 }

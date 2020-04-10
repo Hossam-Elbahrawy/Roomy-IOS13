@@ -1031,7 +1031,7 @@
                                                 <fontDescription key="fontDescription" name="Calibre-Regular" family="Calibre" pointSize="22"/>
                                                 <textInputTraits key="textInputTraits" spellCheckingType="no" returnKeyType="next" textContentType="username"/>
                                             </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="hello@example.com" borderStyle="roundedRect" placeholder="Enter your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6kf-pl-k8Y">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your E-Mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6kf-pl-k8Y">
                                                 <rect key="frame" x="20" y="116" width="374" height="34"/>
                                                 <fontDescription key="fontDescription" name="Calibre-Regular" family="Calibre" pointSize="22"/>
                                                 <textInputTraits key="textInputTraits" spellCheckingType="no" returnKeyType="next" textContentType="email"/>
@@ -1080,7 +1080,7 @@
                                         <rect key="frame" x="0.0" y="568" width="414" height="284"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwR-m5-d3D">
-                                                <rect key="frame" x="87" y="229" width="122.5" height="18"/>
+                                                <rect key="frame" x="97" y="229" width="122.5" height="18"/>
                                                 <fontDescription key="fontDescription" name="Calibre-Light" family="Calibre" pointSize="18"/>
                                                 <color key="textColor" red="0.13725490200000001" green="0.1529411765" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1102,22 +1102,27 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSL-r0-Nom">
-                                                <rect key="frame" x="217" y="224" width="49" height="30"/>
+                                                <rect key="frame" x="227" y="224" width="49" height="30"/>
                                                 <fontDescription key="fontDescription" name="Calibre-Medium" family="Calibre" pointSize="18"/>
                                                 <state key="normal" title="Sign In"/>
                                                 <connections>
                                                     <segue destination="mTQ-dr-Wo1" kind="presentation" modalPresentationStyle="fullScreen" id="BXo-t5-EF6"/>
                                                 </connections>
                                             </button>
+                                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="S4t-Uo-ntM">
+                                                <rect key="frame" x="188.5" y="123.5" width="37" height="37"/>
+                                            </activityIndicatorView>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="tAb-F9-bSS" firstAttribute="centerX" secondItem="kTc-9G-IR9" secondAttribute="centerX" id="3RA-r3-3b0"/>
                                             <constraint firstItem="1ua-cz-gG3" firstAttribute="centerY" secondItem="tAb-F9-bSS" secondAttribute="centerY" id="JiY-sG-kaH"/>
-                                            <constraint firstItem="kwR-m5-d3D" firstAttribute="leading" secondItem="kTc-9G-IR9" secondAttribute="leading" constant="87" id="Mpc-7h-dNv"/>
+                                            <constraint firstItem="kwR-m5-d3D" firstAttribute="leading" secondItem="kTc-9G-IR9" secondAttribute="leading" constant="97" id="Mpc-7h-dNv"/>
                                             <constraint firstItem="tAb-F9-bSS" firstAttribute="centerY" secondItem="kTc-9G-IR9" secondAttribute="centerY" id="QqG-3D-er4"/>
                                             <constraint firstItem="1ua-cz-gG3" firstAttribute="centerX" secondItem="tAb-F9-bSS" secondAttribute="centerX" id="Ry0-lM-n86"/>
                                             <constraint firstAttribute="bottom" secondItem="KSL-r0-Nom" secondAttribute="bottom" constant="30" id="UHS-La-M5Q"/>
+                                            <constraint firstItem="S4t-Uo-ntM" firstAttribute="centerY" secondItem="kTc-9G-IR9" secondAttribute="centerY" id="eoV-fV-S4n"/>
                                             <constraint firstAttribute="bottom" secondItem="kwR-m5-d3D" secondAttribute="bottom" constant="37" id="fUC-Gz-LcQ"/>
+                                            <constraint firstItem="S4t-Uo-ntM" firstAttribute="centerX" secondItem="kTc-9G-IR9" secondAttribute="centerX" id="fhu-0w-W3K"/>
                                             <constraint firstItem="KSL-r0-Nom" firstAttribute="leading" secondItem="kwR-m5-d3D" secondAttribute="trailing" constant="7.5" id="w9k-Od-oPg"/>
                                         </constraints>
                                     </view>
@@ -1144,7 +1149,9 @@
                     <navigationItem key="navigationItem" id="wS6-ko-1Yl"/>
                     <connections>
                         <outlet property="emailTextField" destination="6kf-pl-k8Y" id="saa-lN-dct"/>
+                        <outlet property="loadingIndecator" destination="S4t-Uo-ntM" id="wng-ek-aNG"/>
                         <outlet property="passwordTextField" destination="gA4-kq-JFa" id="G4V-cW-pMV"/>
+                        <outlet property="signUpButtonText" destination="1ua-cz-gG3" id="dmg-Ib-0Jv"/>
                         <outlet property="userNameTextField" destination="eHc-cI-Fia" id="IVh-EM-TxY"/>
                         <segue destination="fC5-id-Jak" kind="presentation" identifier="SignUpToHome" modalPresentationStyle="fullScreen" id="Mcl-ix-FUe"/>
                     </connections>
@@ -1155,8 +1162,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="OmS-Lu-c8Q"/>
-        <segue reference="UZP-rD-SI7"/>
+        <segue reference="Mcl-ix-FUe"/>
         <segue reference="BXo-t5-EF6"/>
     </inferredMetricsTieBreakers>
     <resources>

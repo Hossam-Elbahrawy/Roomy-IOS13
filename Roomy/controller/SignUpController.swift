@@ -9,9 +9,3 @@
 import Foundation
 
 
-func signUpUser(user: User) -> Bool{
-    // POST user to users route
-    print("Sign Up Complete")
-    let res = signUpReq(user: user)
-    return res
-}

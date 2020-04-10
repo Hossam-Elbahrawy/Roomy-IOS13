@@ -16,22 +16,16 @@ let URLS: [String: String] = [
     "getAllRooms":  "https://roomy-application.herokuapp.com/rooms"
 ]
 
-func signUpReq(user: User) -> Bool {
+func signUpReq(user: User,completion: @escaping()->()) {
     //    let url = URL(string: URLS["signIn"]!)
-    var res: Bool = false
+    
     AF.request(URLS["signUp"]!, method: .post, parameters: user, encoder: JSONParameterEncoder.default).responseJSON { response in
-        switch response.result {
-        case .success:
-            print("Sign Up Successful")
-            res = true
-        case let .failure(error):
-            print(error)
-            res = false
-            
+        let res = response.value as! [String: String]
+        if((res["message"]) != nil){
+            print(res["message"]!)
+            completion()
         }
     }
-    return res
-    
 }
 
 
@@ -43,8 +37,9 @@ func signInReq(_ user: User, completion: @escaping()->()) {
         if((res["message"]) != nil){
             print(res["message"]!)
         }else{
-//            print(res["auth_token"]!)
+            //            print(res["auth_token"]!)
             completion()
         }
     }
+    
 }

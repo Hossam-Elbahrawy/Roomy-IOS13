@@ -19,11 +19,12 @@ Application for finding roomamtes online built using Swift 5 & IOS13
 - [ ] Get All Rooms API
 
 ## Screenshots
-### Landing Screen
-<img src="Documentation/landing.png" alt="Landing Screen" height="500px">
 
-### Sign in Screen
+### Sign In Screen
 <img src="Documentation/signIn.gif" alt="Sing In Screen" width="100%">
+
+### Sign Up Screen
+<img src="Documentation/signUp.gif" alt="Sing Up Screen" width="100%">
 
 ### Home Screen
 <img src="Documentation/home.png" alt="Home Screen" height="500px">
