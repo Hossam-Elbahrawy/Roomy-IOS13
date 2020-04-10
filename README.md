@@ -14,7 +14,7 @@ Application for finding roomamtes online built using Swift 5 & IOS13
 - [x] Signup Screen
 - [ ] Add New Room Screen
 - [x] Sign Up API
-- [ ] Sign In API
+- [x] Sign In API
 - [ ] Add New Room API
 - [ ] Get All Rooms API
 
@@ -23,7 +23,7 @@ Application for finding roomamtes online built using Swift 5 & IOS13
 <img src="Documentation/landing.png" alt="Landing Screen" height="500px">
 
 ### Sign in Screen
-<img src="Documentation/signin.png" alt="Sing In Screen" height="500px">
+<img src="Documentation/signIn.gif" alt="Sing In Screen" width="100%">
 
 ### Home Screen
 <img src="Documentation/home.png" alt="Home Screen" height="500px">

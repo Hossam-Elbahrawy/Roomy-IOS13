@@ -223,7 +223,6 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="signInButtonPressed:" destination="mTQ-dr-Wo1" eventType="touchUpInside" id="Ox7-0q-G6Z"/>
-                                                    <segue destination="fC5-id-Jak" kind="presentation" identifier="SignInToHome" modalPresentationStyle="fullScreen" id="jel-Ev-lvs"/>
                                                 </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="WKk-cz-bWI">
@@ -319,6 +318,10 @@
                                                     <segue destination="FhL-QZ-7lF" kind="presentation" modalPresentationStyle="fullScreen" id="OmS-Lu-c8Q"/>
                                                 </connections>
                                             </button>
+                                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="ODB-rO-2N2">
+                                                <rect key="frame" x="195" y="67" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </activityIndicatorView>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="GnC-lp-wEY" firstAttribute="centerX" secondItem="nzV-ew-LiQ" secondAttribute="centerX" id="8qw-u6-CIJ"/>
@@ -352,12 +355,15 @@
                     <navigationItem key="navigationItem" id="ERw-UU-kyx"/>
                     <connections>
                         <outlet property="emailTextField" destination="14p-c6-xSb" id="g3c-TH-XBM"/>
+                        <outlet property="loadingIndecator" destination="ODB-rO-2N2" id="o6M-cN-dgr"/>
                         <outlet property="passwordTextField" destination="H4l-gF-6tY" id="dpZ-0u-SmS"/>
+                        <outlet property="signInButtonText" destination="GnC-lp-wEY" id="C8I-qf-wWw"/>
+                        <segue destination="fC5-id-Jak" kind="presentation" identifier="SignInToHome" modalPresentationStyle="fullScreen" id="UZP-rD-SI7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bmE-DQ-O7G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4655" y="525"/>
+            <point key="canvasLocation" x="-4655.072463768116" y="525"/>
         </scene>
         <!--Rooms Table View Controller-->
         <scene sceneID="Hio-K4-UwO">
@@ -1150,7 +1156,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="OmS-Lu-c8Q"/>
-        <segue reference="Mcl-ix-FUe"/>
+        <segue reference="UZP-rD-SI7"/>
         <segue reference="BXo-t5-EF6"/>
     </inferredMetricsTieBreakers>
     <resources>

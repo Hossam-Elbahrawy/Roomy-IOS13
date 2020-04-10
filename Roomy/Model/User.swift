@@ -9,7 +9,7 @@
 import Foundation
 
 struct User :Encodable{
-    let name: String
+    var name: String = ""
     let email: String
     let password: String
     
@@ -18,7 +18,7 @@ struct User :Encodable{
         self.email = email
         self.password = password
     }
-    init(email: String, pasword: String) {
+    init(email: String, password: String) {
         self.email = email
         self.password = password
     }
