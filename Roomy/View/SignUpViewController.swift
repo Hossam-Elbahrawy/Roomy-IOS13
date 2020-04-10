@@ -28,7 +28,7 @@ class SignUpViewController : UIViewController{
         
      let res = signUpUser(user: newUser)
         if(res){
-            performSegue(withIdentifier: "GoToHome", sender: nil)
+            performSegue(withIdentifier: "SignUpToHome", sender: nil)
         }
     }
     

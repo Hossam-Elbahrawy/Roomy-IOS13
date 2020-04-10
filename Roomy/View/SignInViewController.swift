@@ -11,7 +11,9 @@ import UIKit
 
 class SignInViewContoller: UIViewController {
     
-   
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -19,6 +21,17 @@ class SignInViewContoller: UIViewController {
         
     }
     
+    @IBAction func signInButtonPressed(_ sender: Any) {
+        
+        let email = emailTextField.text
+        let pasword = passwordTextField.text
+        let user = User(name: "", email: email ?? "", password: pasword ?? "")
+        
+       let res = signInUser(user: user)
+        if(res){
+            performSegue(withIdentifier: "SignInToHome", sender: nil)
+        }
+    }
     
     
 }

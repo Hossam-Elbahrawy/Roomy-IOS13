@@ -38,6 +38,7 @@
 		BFB04844241D50A1002C4777 /* CalibreThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04833241D50A1002C4777 /* CalibreThin.otf */; };
 		BFB04845241D50A1002C4777 /* CalibreMediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04834241D50A1002C4777 /* CalibreMediumItalic.otf */; };
 		BFC53A522440AD3100B0519D /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53A512440AD3100B0519D /* SignUpController.swift */; };
+		BFC53A542440AE5800B0519D /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53A532440AE5800B0519D /* SignInController.swift */; };
 		E5AFA8328F1B5C18ED43A28F /* Pods_Roomy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFD1A4FB93F4B743D433639 /* Pods_Roomy.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		BFB04833241D50A1002C4777 /* CalibreThin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreThin.otf; sourceTree = "<group>"; };
 		BFB04834241D50A1002C4777 /* CalibreMediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreMediumItalic.otf; sourceTree = "<group>"; };
 		BFC53A512440AD3100B0519D /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		BFC53A532440AE5800B0519D /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
 		CEFD1A4FB93F4B743D433639 /* Pods_Roomy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roomy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				BFC53A512440AD3100B0519D /* SignUpController.swift */,
+				BFC53A532440AE5800B0519D /* SignInController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				BF93FD67241D335D005CDA72 /* SignInViewController.swift in Sources */,
 				BF93FD6B241D3382005CDA72 /* RoomDetailsViewController.swift in Sources */,
 				BFC53A522440AD3100B0519D /* SignUpController.swift in Sources */,
+				BFC53A542440AE5800B0519D /* SignInController.swift in Sources */,
 				BF7977D3243FB56500599C4B /* Room.swift in Sources */,
 				BF7977D5243FB6E400599C4B /* User.swift in Sources */,
 				BFAB556A241CFF1D003C4EB2 /* AppDelegate.swift in Sources */,
