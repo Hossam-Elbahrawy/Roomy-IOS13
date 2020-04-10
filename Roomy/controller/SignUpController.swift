@@ -12,5 +12,6 @@ import Foundation
 func signUpUser(user: User) -> Bool{
     // POST user to users route
     print("Sign Up Complete")
-    return true
+    let res = signUpReq(user: user)
+    return res
 }

@@ -39,6 +39,7 @@
 		BFB04845241D50A1002C4777 /* CalibreMediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04834241D50A1002C4777 /* CalibreMediumItalic.otf */; };
 		BFC53A522440AD3100B0519D /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53A512440AD3100B0519D /* SignUpController.swift */; };
 		BFC53A542440AE5800B0519D /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53A532440AE5800B0519D /* SignInController.swift */; };
+		BFC53A562440B78F00B0519D /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53A552440B78F00B0519D /* NetworkController.swift */; };
 		E5AFA8328F1B5C18ED43A28F /* Pods_Roomy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFD1A4FB93F4B743D433639 /* Pods_Roomy.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,7 @@
 		BFB04834241D50A1002C4777 /* CalibreMediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreMediumItalic.otf; sourceTree = "<group>"; };
 		BFC53A512440AD3100B0519D /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		BFC53A532440AE5800B0519D /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		BFC53A552440B78F00B0519D /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		CEFD1A4FB93F4B743D433639 /* Pods_Roomy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roomy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -196,6 +198,7 @@
 			children = (
 				BFC53A512440AD3100B0519D /* SignUpController.swift */,
 				BFC53A532440AE5800B0519D /* SignInController.swift */,
+				BFC53A552440B78F00B0519D /* NetworkController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC53A562440B78F00B0519D /* NetworkController.swift in Sources */,
 				BF93FD67241D335D005CDA72 /* SignInViewController.swift in Sources */,
 				BF93FD6B241D3382005CDA72 /* RoomDetailsViewController.swift in Sources */,
 				BFC53A522440AD3100B0519D /* SignUpController.swift in Sources */,

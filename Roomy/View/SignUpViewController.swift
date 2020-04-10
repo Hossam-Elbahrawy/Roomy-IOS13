@@ -24,7 +24,7 @@ class SignUpViewController : UIViewController{
         print(userName!)
         print(email!)
         print(pasword!)
-       let newUser = User(name: userName ?? "", email: email ?? "", password: pasword ?? "")
+       let newUser = User( email: email ?? "", password: pasword ?? "")
         
      let res = signUpUser(user: newUser)
         if(res){

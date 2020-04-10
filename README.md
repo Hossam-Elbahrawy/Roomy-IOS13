@@ -13,10 +13,10 @@ Application for finding roomamtes online built using Swift 5 & IOS13
 - [x] Details Screen
 - [x] Signup Screen
 - [ ] Add New Room Screen
-- [ ] Sign Up New User
-- [ ] Sign In
-- [ ] Add New Room
-- [ ] Get All Rooms
+- [x] Sign Up API
+- [ ] Sign In API
+- [ ] Add New Room API
+- [ ] Get All Rooms API
 
 ## Screenshots
 ### Landing Screen
