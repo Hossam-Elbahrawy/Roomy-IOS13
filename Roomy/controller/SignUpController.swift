@@ -7,5 +7,17 @@
 //
 
 import Foundation
+import Alamofire
 
 
+func signUpReq(user: User,completion: @escaping()->()) {
+    //    let url = URL(string: URLS["signIn"]!)
+    
+    AF.request(URLS["signUp"]!, method: .post, parameters: user, encoder: JSONParameterEncoder.default).responseJSON { response in
+        let res = response.value as! [String: String]
+        if((res["message"]) != nil){
+            print(res["message"]!)
+            completion()
+        }
+    }
+}

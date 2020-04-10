@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Room {
+struct Room: Encodable {
     
     let title: String
     let price: String

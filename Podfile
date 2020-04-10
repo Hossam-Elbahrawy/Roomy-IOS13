@@ -7,5 +7,6 @@ target 'Roomy' do
 
   # Pods for Roomy
   pod 'Alamofire', '~> 5.1'
+  pod 'KeychainSwift', '~> 19.0'
 
 end

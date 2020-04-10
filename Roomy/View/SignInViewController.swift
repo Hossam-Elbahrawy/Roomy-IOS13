@@ -20,7 +20,10 @@ class SignInViewContoller: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("Sign In  Page")
-        
+        let token = keychain.get("auth_token")
+        if(token != nil){
+            goToHome()
+        }
     }
     
     @IBAction func signInButtonPressed(_ sender: Any) {
