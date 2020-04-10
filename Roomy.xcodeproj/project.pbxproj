@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		BF7977D3243FB56500599C4B /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7977D2243FB56500599C4B /* Room.swift */; };
 		BF7977D5243FB6E400599C4B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7977D4243FB6E400599C4B /* User.swift */; };
-		BF93FD67241D335D005CDA72 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93FD66241D335D005CDA72 /* signInViewController.swift */; };
-		BF93FD69241D3370005CDA72 /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93FD68241D3370005CDA72 /* tableViewController.swift */; };
-		BF93FD6B241D3382005CDA72 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93FD6A241D3382005CDA72 /* detailsViewController.swift */; };
+		BF7977DC243FBD9B00599C4B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7977DB243FBD9B00599C4B /* SignUpViewController.swift */; };
+		BF93FD67241D335D005CDA72 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93FD66241D335D005CDA72 /* SignInViewController.swift */; };
+		BF93FD69241D3370005CDA72 /* RoomsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93FD68241D3370005CDA72 /* RoomsTableViewController.swift */; };
+		BF93FD6B241D3382005CDA72 /* RoomDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93FD6A241D3382005CDA72 /* RoomDetailsViewController.swift */; };
 		BFAB556A241CFF1D003C4EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB5569241CFF1D003C4EB2 /* AppDelegate.swift */; };
 		BFAB556C241CFF1D003C4EB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB556B241CFF1D003C4EB2 /* SceneDelegate.swift */; };
-		BFAB556E241CFF1D003C4EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB556D241CFF1D003C4EB2 /* ViewController.swift */; };
 		BFAB5571241CFF1D003C4EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAB556F241CFF1D003C4EB2 /* Main.storyboard */; };
 		BFAB5573241CFF1E003C4EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAB5572241CFF1E003C4EB2 /* Assets.xcassets */; };
 		BFAB5576241CFF1E003C4EB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAB5574241CFF1E003C4EB2 /* LaunchScreen.storyboard */; };
@@ -37,6 +37,7 @@
 		BFB04843241D50A1002C4777 /* CalibreSemibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04832241D50A1002C4777 /* CalibreSemibold.otf */; };
 		BFB04844241D50A1002C4777 /* CalibreThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04833241D50A1002C4777 /* CalibreThin.otf */; };
 		BFB04845241D50A1002C4777 /* CalibreMediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BFB04834241D50A1002C4777 /* CalibreMediumItalic.otf */; };
+		BFC53A522440AD3100B0519D /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53A512440AD3100B0519D /* SignUpController.swift */; };
 		E5AFA8328F1B5C18ED43A28F /* Pods_Roomy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFD1A4FB93F4B743D433639 /* Pods_Roomy.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,13 +46,13 @@
 		1CF6883D0B63E990921555C0 /* Pods-Roomy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roomy.release.xcconfig"; path = "Target Support Files/Pods-Roomy/Pods-Roomy.release.xcconfig"; sourceTree = "<group>"; };
 		BF7977D2243FB56500599C4B /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		BF7977D4243FB6E400599C4B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		BF93FD66241D335D005CDA72 /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
-		BF93FD68241D3370005CDA72 /* tableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
-		BF93FD6A241D3382005CDA72 /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
+		BF7977DB243FBD9B00599C4B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BF93FD66241D335D005CDA72 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		BF93FD68241D3370005CDA72 /* RoomsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsTableViewController.swift; sourceTree = "<group>"; };
+		BF93FD6A241D3382005CDA72 /* RoomDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailsViewController.swift; sourceTree = "<group>"; };
 		BFAB5566241CFF1D003C4EB2 /* Roomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAB5569241CFF1D003C4EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFAB556B241CFF1D003C4EB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BFAB556D241CFF1D003C4EB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFAB5570241CFF1D003C4EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFAB5572241CFF1E003C4EB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFAB5575241CFF1E003C4EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 		BFB04832241D50A1002C4777 /* CalibreSemibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreSemibold.otf; sourceTree = "<group>"; };
 		BFB04833241D50A1002C4777 /* CalibreThin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreThin.otf; sourceTree = "<group>"; };
 		BFB04834241D50A1002C4777 /* CalibreMediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CalibreMediumItalic.otf; sourceTree = "<group>"; };
+		BFC53A512440AD3100B0519D /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		CEFD1A4FB93F4B743D433639 /* Pods_Roomy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roomy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,41 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		BF7977D6243FB7AB00599C4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF7977DB243FBD9B00599C4B /* SignUpViewController.swift */,
+				BF93FD68241D3370005CDA72 /* RoomsTableViewController.swift */,
+				BF93FD6A241D3382005CDA72 /* RoomDetailsViewController.swift */,
+				BF93FD66241D335D005CDA72 /* SignInViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF7977D8243FB7ED00599C4B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BFB04827241D50A0002C4777 /* CalibreBlack.otf */,
+				BFB0482C241D50A0002C4777 /* CalibreBlackItalic.otf */,
+				BFB04828241D50A0002C4777 /* CalibreBold.otf */,
+				BFB0482D241D50A0002C4777 /* CalibreBoldItalic.otf */,
+				BFB0482E241D50A0002C4777 /* CalibreLight.otf */,
+				BFB04825241D50A0002C4777 /* CalibreLightItalic.otf */,
+				BFB04824241D509F002C4777 /* CalibreMedium.otf */,
+				BFB04834241D50A1002C4777 /* CalibreMediumItalic.otf */,
+				BFB0482F241D50A0002C4777 /* CalibreRegular.otf */,
+				BFB04826241D50A0002C4777 /* CalibreRegularItalic.otf */,
+				BFB04832241D50A1002C4777 /* CalibreSemibold.otf */,
+				BFB0482A241D50A0002C4777 /* CalibreSemiboldItalic.otf */,
+				BFB04833241D50A1002C4777 /* CalibreThin.otf */,
+				BFB04830241D50A1002C4777 /* CalibreThinItalic.otf */,
+				BFB04829241D50A0002C4777 /* Courgette-Regular.ttf */,
+				BFB04831241D50A1002C4777 /* NoeDisplay-Bold.ttf */,
+				BFB0482B241D50A0002C4777 /* TradeWinds-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		BFAB555D241CFF1D003C4EB2 = {
 			isa = PBXGroup;
 			children = (
@@ -130,44 +167,34 @@
 		BFAB5568241CFF1D003C4EB2 /* Roomy */ = {
 			isa = PBXGroup;
 			children = (
+				BFC53A502440AD2100B0519D /* controller */,
+				BF7977D6243FB7AB00599C4B /* View */,
 				BF7977D1243FB54E00599C4B /* Model */,
-				BFB04823241D5074002C4777 /* Recources */,
+				BFB04823241D5074002C4777 /* Resources */,
 				BFAB5569241CFF1D003C4EB2 /* AppDelegate.swift */,
 				BFAB556B241CFF1D003C4EB2 /* SceneDelegate.swift */,
-				BFAB556D241CFF1D003C4EB2 /* ViewController.swift */,
-				BFAB556F241CFF1D003C4EB2 /* Main.storyboard */,
-				BFAB5572241CFF1E003C4EB2 /* Assets.xcassets */,
-				BFAB5574241CFF1E003C4EB2 /* LaunchScreen.storyboard */,
-				BFAB5577241CFF1E003C4EB2 /* Info.plist */,
-				BF93FD66241D335D005CDA72 /* signInViewController.swift */,
-				BF93FD68241D3370005CDA72 /* tableViewController.swift */,
-				BF93FD6A241D3382005CDA72 /* detailsViewController.swift */,
 			);
 			path = Roomy;
 			sourceTree = "<group>";
 		};
-		BFB04823241D5074002C4777 /* Recources */ = {
+		BFB04823241D5074002C4777 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BFB04827241D50A0002C4777 /* CalibreBlack.otf */,
-				BFB0482C241D50A0002C4777 /* CalibreBlackItalic.otf */,
-				BFB04828241D50A0002C4777 /* CalibreBold.otf */,
-				BFB0482D241D50A0002C4777 /* CalibreBoldItalic.otf */,
-				BFB0482E241D50A0002C4777 /* CalibreLight.otf */,
-				BFB04825241D50A0002C4777 /* CalibreLightItalic.otf */,
-				BFB04824241D509F002C4777 /* CalibreMedium.otf */,
-				BFB04834241D50A1002C4777 /* CalibreMediumItalic.otf */,
-				BFB0482F241D50A0002C4777 /* CalibreRegular.otf */,
-				BFB04826241D50A0002C4777 /* CalibreRegularItalic.otf */,
-				BFB04832241D50A1002C4777 /* CalibreSemibold.otf */,
-				BFB0482A241D50A0002C4777 /* CalibreSemiboldItalic.otf */,
-				BFB04833241D50A1002C4777 /* CalibreThin.otf */,
-				BFB04830241D50A1002C4777 /* CalibreThinItalic.otf */,
-				BFB04829241D50A0002C4777 /* Courgette-Regular.ttf */,
-				BFB04831241D50A1002C4777 /* NoeDisplay-Bold.ttf */,
-				BFB0482B241D50A0002C4777 /* TradeWinds-Regular.ttf */,
+				BFAB556F241CFF1D003C4EB2 /* Main.storyboard */,
+				BFAB5572241CFF1E003C4EB2 /* Assets.xcassets */,
+				BFAB5574241CFF1E003C4EB2 /* LaunchScreen.storyboard */,
+				BFAB5577241CFF1E003C4EB2 /* Info.plist */,
+				BF7977D8243FB7ED00599C4B /* fonts */,
 			);
-			path = Recources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BFC53A502440AD2100B0519D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFC53A512440AD3100B0519D /* SignUpController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 		D85F371B369C44A332CAB687 /* Pods */ = {
@@ -313,14 +340,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF93FD67241D335D005CDA72 /* signInViewController.swift in Sources */,
-				BF93FD6B241D3382005CDA72 /* detailsViewController.swift in Sources */,
+				BF93FD67241D335D005CDA72 /* SignInViewController.swift in Sources */,
+				BF93FD6B241D3382005CDA72 /* RoomDetailsViewController.swift in Sources */,
+				BFC53A522440AD3100B0519D /* SignUpController.swift in Sources */,
 				BF7977D3243FB56500599C4B /* Room.swift in Sources */,
-				BFAB556E241CFF1D003C4EB2 /* ViewController.swift in Sources */,
 				BF7977D5243FB6E400599C4B /* User.swift in Sources */,
 				BFAB556A241CFF1D003C4EB2 /* AppDelegate.swift in Sources */,
+				BF7977DC243FBD9B00599C4B /* SignUpViewController.swift in Sources */,
 				BFAB556C241CFF1D003C4EB2 /* SceneDelegate.swift in Sources */,
-				BF93FD69241D3370005CDA72 /* tableViewController.swift in Sources */,
+				BF93FD69241D3370005CDA72 /* RoomsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Roomy/Info.plist;
+				INFOPLIST_FILE = Roomy/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +512,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Roomy/Info.plist;
+				INFOPLIST_FILE = Roomy/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

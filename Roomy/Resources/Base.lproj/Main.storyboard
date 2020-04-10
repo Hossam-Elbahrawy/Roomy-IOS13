@@ -98,12 +98,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OOH-hY-QTw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4981" y="525"/>
+            <point key="canvasLocation" x="-5609" y="525"/>
         </scene>
         <!--Sign In View Contoller-->
         <scene sceneID="iPk-Vc-ZlB">
             <objects>
-                <viewController storyboardIdentifier="signInViewContoller" id="mTQ-dr-Wo1" customClass="signInViewContoller" customModule="Roomy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="signInViewContoller" id="mTQ-dr-Wo1" customClass="SignInViewContoller" customModule="Roomy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W5r-p7-cYK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -222,7 +222,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="fC5-id-Jak" kind="show" id="jOx-tK-aKr"/>
+                                                    <segue destination="fC5-id-Jak" kind="presentation" modalPresentationStyle="fullScreen" id="jel-Ev-lvs"/>
                                                 </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="WKk-cz-bWI">
@@ -315,7 +315,7 @@
                                                 <fontDescription key="fontDescription" name="Calibre-Medium" family="Calibre" pointSize="18"/>
                                                 <state key="normal" title="Sign Up"/>
                                                 <connections>
-                                                    <segue destination="FhL-QZ-7lF" kind="show" id="u4R-6M-p9P"/>
+                                                    <segue destination="FhL-QZ-7lF" kind="presentation" modalPresentationStyle="fullScreen" id="OmS-Lu-c8Q"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -349,18 +349,15 @@
                         <viewLayoutGuide key="safeArea" id="dZg-fm-CrM"/>
                     </view>
                     <navigationItem key="navigationItem" id="ERw-UU-kyx"/>
-                    <connections>
-                        <outlet property="navigationBar" destination="ERw-UU-kyx" id="GNF-5E-3IO"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bmE-DQ-O7G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4212" y="525"/>
+            <point key="canvasLocation" x="-4655" y="525"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Rooms Table View Controller-->
         <scene sceneID="Hio-K4-UwO">
             <objects>
-                <tableViewController storyboardIdentifier="tableViewController" id="fC5-id-Jak" customClass="tableViewController" customModule="Roomy" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="tableViewController" id="fC5-id-Jak" customClass="RoomsTableViewController" customModule="Roomy" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="gZB-fz-s50">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -383,7 +380,7 @@
                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                     <state key="normal" title="Add Room"/>
                                     <connections>
-                                        <segue destination="4mF-AM-Nbo" kind="presentation" id="4o5-To-c9g"/>
+                                        <segue destination="4mF-AM-Nbo" kind="show" id="xTP-9z-Em2"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -826,7 +823,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ya-sE-Vbw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3386" y="525"/>
+            <point key="canvasLocation" x="-3639" y="900"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wVd-Gk-sbf">
@@ -856,12 +853,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rGW-5b-NnV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3387" y="1205"/>
+            <point key="canvasLocation" x="-3639" y="1690"/>
         </scene>
-        <!--Details View Contoller-->
+        <!--Room Details View Contoller-->
         <scene sceneID="G2b-WJ-DzL">
             <objects>
-                <viewController storyboardIdentifier="detailsViewContoller" id="Rd6-Ng-Q9k" customClass="detailsViewContoller" customModule="Roomy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailsViewContoller" id="Rd6-Ng-Q9k" customClass="RoomDetailsViewContoller" customModule="Roomy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fwQ-Ud-PIo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -949,7 +946,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ad-MH-T57" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2583" y="525"/>
+            <point key="canvasLocation" x="-2423" y="900"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DSR-Ib-eIf">
@@ -970,12 +967,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ort-72-brj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5781" y="525"/>
+            <point key="canvasLocation" x="-6478" y="525"/>
         </scene>
         <!--Sign Up View Contoller-->
         <scene sceneID="8wx-GU-E7q">
             <objects>
-                <viewController storyboardIdentifier="singUpViewContoller" id="FhL-QZ-7lF" userLabel="Sign Up View Contoller" customClass="signInViewContoller" customModule="Roomy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="singUpViewContoller" id="FhL-QZ-7lF" userLabel="Sign Up View Contoller" customClass="SignUpViewController" customModule="Roomy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wVf-ul-gbd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1021,12 +1018,12 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eHc-cI-Fia">
                                                 <rect key="frame" x="20" y="41" width="374" height="34"/>
                                                 <fontDescription key="fontDescription" name="Calibre-Regular" family="Calibre" pointSize="22"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" spellCheckingType="no" returnKeyType="next" textContentType="username"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="hello@example.com" borderStyle="roundedRect" placeholder="Enter your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6kf-pl-k8Y">
                                                 <rect key="frame" x="20" y="116" width="374" height="34"/>
                                                 <fontDescription key="fontDescription" name="Calibre-Regular" family="Calibre" pointSize="22"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" spellCheckingType="no" returnKeyType="next" textContentType="email"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-Mail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zBG-bQ-tbV">
                                                 <rect key="frame" x="20" y="90" width="374" height="18"/>
@@ -1043,7 +1040,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gA4-kq-JFa">
                                                 <rect key="frame" x="20" y="191" width="374" height="34"/>
                                                 <fontDescription key="fontDescription" name="Calibre-Regular" family="Calibre" pointSize="22"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" spellCheckingType="no" textContentType="password"/>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -1089,11 +1086,17 @@
                                                 <state key="normal" title="Sign Up">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="signUpButtonPressed:" destination="FhL-QZ-7lF" eventType="touchUpInside" id="Gy9-qG-L4F"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSL-r0-Nom">
                                                 <rect key="frame" x="217" y="224" width="49" height="30"/>
                                                 <fontDescription key="fontDescription" name="Calibre-Medium" family="Calibre" pointSize="18"/>
                                                 <state key="normal" title="Sign In"/>
+                                                <connections>
+                                                    <segue destination="mTQ-dr-Wo1" kind="presentation" modalPresentationStyle="fullScreen" id="BXo-t5-EF6"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -1129,14 +1132,21 @@
                     </view>
                     <navigationItem key="navigationItem" id="wS6-ko-1Yl"/>
                     <connections>
-                        <outlet property="navigationBar" destination="wS6-ko-1Yl" id="IBQ-0n-JAe"/>
+                        <outlet property="emailTextField" destination="6kf-pl-k8Y" id="saa-lN-dct"/>
+                        <outlet property="passwordTextField" destination="gA4-kq-JFa" id="G4V-cW-pMV"/>
+                        <outlet property="userNameTextField" destination="eHc-cI-Fia" id="IVh-EM-TxY"/>
+                        <segue destination="fC5-id-Jak" kind="presentation" identifier="GoToHome" modalPresentationStyle="fullScreen" id="Mcl-ix-FUe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="naJ-8g-Q2V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4213" y="1205"/>
+            <point key="canvasLocation" x="-4655" y="1444"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Mcl-ix-FUe"/>
+        <segue reference="BXo-t5-EF6"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Rectangle" width="312" height="48"/>
         <image name="bookmark" catalog="system" width="112" height="128"/>

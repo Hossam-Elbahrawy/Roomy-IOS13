@@ -13,10 +13,10 @@ struct Room {
     let title: String
     let price: String
     let place: String
-    let image: String
+    let image: String?
     let description: String
     
-    init(title: String, price: String, place: String, image: String, description: String) {
+    init(title: String, price: String, place: String, image: String?, description: String) {
         self.title = title
         self.price = price
         self.place = place

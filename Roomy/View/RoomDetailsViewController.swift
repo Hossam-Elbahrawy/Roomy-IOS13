@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-class detailsViewContoller: UIViewController {
+class RoomDetailsViewContoller: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

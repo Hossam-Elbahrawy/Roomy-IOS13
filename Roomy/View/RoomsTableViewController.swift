@@ -1,5 +1,5 @@
 //
-//  signInViewController.swift
+//  tableViewController.swift
 //  Roomy
 //
 //  Created by Hossam Elbahrawy on 3/14/20.
@@ -9,16 +9,14 @@
 import Foundation
 import UIKit
 
-class signInViewContoller: UIViewController {
-
+class RoomsTableViewController: UITableViewController {
+    
     @IBOutlet weak var navigationBar: UINavigationItem!
     override func viewDidLoad() {
            super.viewDidLoad()
            // Do any additional setup after loading the view.
-           print("Sign In  Page")
+           print("Table Page")
         navigationBar.hidesBackButton = true
         
-       }
-        
-    
+    }
 }
