@@ -9,14 +9,15 @@
 import Foundation
 
 struct Room: Encodable {
-    
-    let title: String
-    let price: String
-    let place: String
+    let id: Int?
+    let title: String?
+    let price: String?
+    let place: String?
     let image: String?
-    let description: String
+    let description: String?
     
-    init(title: String, price: String, place: String, image: String?, description: String) {
+    init(id: Int?, title: String?, price: String?, place: String?, image: String?, description: String?) {
+        self.id = id
         self.title = title
         self.price = price
         self.place = place

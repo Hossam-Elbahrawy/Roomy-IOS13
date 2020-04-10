@@ -10,13 +10,20 @@ import Foundation
 import UIKit
 
 class RoomsTableViewController: UITableViewController {
-    
+    var rooms: [Room] = []
     @IBOutlet weak var navigationBar: UINavigationItem!
     override func viewDidLoad() {
            super.viewDidLoad()
            // Do any additional setup after loading the view.
            print("Table Page")
-        navigationBar.hidesBackButton = true
+        getAllRoomsReq(completion: setRooms)
+        
+            
         
     }
+    
+   func setRooms(rooms:[Room]){
+        self.rooms = rooms
+    }
+
 }
