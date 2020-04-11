@@ -19,19 +19,17 @@ class RoomsTableViewController: UITableViewController {
     }
     
     func setRooms(rooms:[Room]){
-        
-        self.rooms = rooms
+        self.rooms = rooms.reversed()
         tableView.reloadData()
     }
     
-        override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-            return rooms.count
-        }
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return rooms.count
+    }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let room = rooms[indexPath.row]
-        print(room)
         let cell = tableView.dequeueReusableCell(withIdentifier: "roomCell") as! RoomTableCellViewController
         cell.setRoom(room: room)
         return cell

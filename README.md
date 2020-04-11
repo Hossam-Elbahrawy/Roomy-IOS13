@@ -9,7 +9,7 @@ Application for finding roomamtes online built using Swift 5 & IOS13
 - [x] Launch Screen
 - [x] Landing Screen
 - [x] Signin Screen
-- [x] Home Screen
+- [x] Rooms Screen
 - [x] Details Screen
 - [x] Signup Screen
 - [ ] Add New Room Screen
@@ -26,8 +26,8 @@ Application for finding roomamtes online built using Swift 5 & IOS13
 ### Sign Up Screen
 <img src="Documentation/signUp.gif" alt="Sing Up Screen" width="100%">
 
-### Home Screen
-<img src="Documentation/home.png" alt="Home Screen" height="500px">
+### Rooms Screen
+<img src="Documentation/rooms.gif" alt="Rooms Screen" width="100%">
 
 ### Details Screen
 <img src="Documentation/details.png" alt="Details Screen" height="500px">
