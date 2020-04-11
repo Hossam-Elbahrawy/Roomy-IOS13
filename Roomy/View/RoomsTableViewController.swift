@@ -11,19 +11,30 @@ import UIKit
 
 class RoomsTableViewController: UITableViewController {
     var rooms: [Room] = []
-    @IBOutlet weak var navigationBar: UINavigationItem!
+    
     override func viewDidLoad() {
-           super.viewDidLoad()
-           // Do any additional setup after loading the view.
-           print("Table Page")
+        super.viewDidLoad()
+        print("Table Page")
         getAllRoomsReq(completion: setRooms)
-        
-            
-        
     }
     
-   func setRooms(rooms:[Room]){
+    func setRooms(rooms:[Room]){
+        
         self.rooms = rooms
+        tableView.reloadData()
     }
-
+    
+        override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            return rooms.count
+        }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let room = rooms[indexPath.row]
+        print(room)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "roomCell") as! RoomTableCellViewController
+        cell.setRoom(room: room)
+        return cell
+        
+    }
 }

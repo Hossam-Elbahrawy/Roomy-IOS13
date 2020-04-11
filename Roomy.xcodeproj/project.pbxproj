@@ -15,6 +15,7 @@
 		BF93FD67241D335D005CDA72 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93FD66241D335D005CDA72 /* SignInViewController.swift */; };
 		BF93FD69241D3370005CDA72 /* RoomsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93FD68241D3370005CDA72 /* RoomsTableViewController.swift */; };
 		BF93FD6B241D3382005CDA72 /* RoomDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93FD6A241D3382005CDA72 /* RoomDetailsViewController.swift */; };
+		BFA6BA7C24427BE300D242BE /* RoomTableCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA6BA7B24427BE300D242BE /* RoomTableCellViewController.swift */; };
 		BFAB556A241CFF1D003C4EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB5569241CFF1D003C4EB2 /* AppDelegate.swift */; };
 		BFAB556C241CFF1D003C4EB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB556B241CFF1D003C4EB2 /* SceneDelegate.swift */; };
 		BFAB5571241CFF1D003C4EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAB556F241CFF1D003C4EB2 /* Main.storyboard */; };
@@ -55,6 +56,7 @@
 		BF93FD66241D335D005CDA72 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		BF93FD68241D3370005CDA72 /* RoomsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsTableViewController.swift; sourceTree = "<group>"; };
 		BF93FD6A241D3382005CDA72 /* RoomDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailsViewController.swift; sourceTree = "<group>"; };
+		BFA6BA7B24427BE300D242BE /* RoomTableCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTableCellViewController.swift; sourceTree = "<group>"; };
 		BFAB5566241CFF1D003C4EB2 /* Roomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAB5569241CFF1D003C4EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFAB556B241CFF1D003C4EB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				BF93FD68241D3370005CDA72 /* RoomsTableViewController.swift */,
 				BF93FD6A241D3382005CDA72 /* RoomDetailsViewController.swift */,
 				BF93FD66241D335D005CDA72 /* SignInViewController.swift */,
+				BFA6BA7B24427BE300D242BE /* RoomTableCellViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				BFC53A542440AE5800B0519D /* SignInController.swift in Sources */,
 				BF7977D3243FB56500599C4B /* Room.swift in Sources */,
 				BF7977D5243FB6E400599C4B /* User.swift in Sources */,
+				BFA6BA7C24427BE300D242BE /* RoomTableCellViewController.swift in Sources */,
 				BFAB556A241CFF1D003C4EB2 /* AppDelegate.swift in Sources */,
 				BF7977DC243FBD9B00599C4B /* SignUpViewController.swift in Sources */,
 				BFAB556C241CFF1D003C4EB2 /* SceneDelegate.swift in Sources */,

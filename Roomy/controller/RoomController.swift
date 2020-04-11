@@ -29,9 +29,11 @@ func getAllRoomsReq(completion: @escaping (_ rooms:[Room])->()){
             let newRoom = Room(id: id, title: title, price: price, place: place, image: image, description: description)
             tempRooms.append(newRoom)
         }
+
             completion(tempRooms)
     }
 }
+
 func addRoomReq(room: Room, completion: @escaping ()->()){
     
     AF.request(URLS["addRoom"]!, method: .post, parameters: room, encoder: JSONParameterEncoder.default).responseJSON { response in
