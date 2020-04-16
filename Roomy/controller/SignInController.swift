@@ -19,7 +19,7 @@ func signInReq(_ user: User, completion: @escaping()->()) {
         if((res["message"]) != nil){
             print(res["message"]!)
         }else{
-                        print(res["auth_token"]!)
+            print(res["auth_token"]!)
             keychain.set(res["auth_token"]!, forKey: "auth_token")
             completion()
         }

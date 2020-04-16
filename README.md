@@ -15,8 +15,9 @@ Application for finding roomamtes online built using Swift 5 & IOS13
 - [ ] Add New Room Screen
 - [x] Sign Up API
 - [x] Sign In API
+- [x] Store Auth Token using keychain
 - [ ] Add New Room API
-- [ ] Get All Rooms API
+- [x] Get All Rooms API
 
 ## Screenshots
 
